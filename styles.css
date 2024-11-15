@@ -1,0 +1,15 @@
+body {
+	margin: 0;
+	background-color: white;
+}
+.card-header{
+  background: #c9ddff;
+}
+#error-msg {
+	color: red;
+	font-weight: bold;
+	display: none;
+}
+form:invalid #error-msg {
+	display: block;
+}
